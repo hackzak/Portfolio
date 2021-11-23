@@ -11,7 +11,7 @@
 <body>
 
     <!-- barre de navigation -->
-    <nav class="navbar fix-top navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
 
 
         <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
@@ -61,7 +61,12 @@
             <p>Lorem ipsum dolor sit amet.</p>
         </div>
     </div>
-    <section class="ac"> 
+
+    <!-- section Portfolio -->
+
+    <section id="Portfolio"> 
+
+
     <div class="py-5" id="portfolio">
         <h2 class="text-center mb-5 text-uppercase">Portfolio</h2>
 
@@ -273,8 +278,157 @@
 
 
 
+
+<!-- about, à propos -->
+
+<section class="bg-dark text-white mb-0" id="About">
+
+    <div class="containeur py-5">   
+
+        <h2 class="text-center text-uppercase text-white pb-3">à propos </h2>
+        <div class="row d-flex justify-content-center">
+
+            <div class="col-lg-4">
+                <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque aliquid est error 
+                    alias beatae eaque nam labore voluptate. Voluptatem minima repellendus aliquid optio molestias 
+                    quo. Veniam sed repudiandae itaque expedita nemo? At esse a magni voluptatum ipsam soluta expl
+                    icabo provident.</p>
+            </div>
+            <div class="col-lg-4">
+                <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque aliquid est error 
+                    alias beatae eaque nam labore voluptate. Voluptatem minima repellendus aliquid optio molestias 
+                    quo. Veniam sed repudiandae itaque expedita nemo? At esse a magni voluptatum ipsam soluta expl
+                    icabo provident.</p>
+            </div>
+
+
+
+
+            <div class="text-center mt-4">
+                <a href="#contact-form" class="btn btn-xl btn-outline-light">
+                    Contactez-moi
+                </a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- section mes services -->
+
+<h2 class="text-center my-5 text-uppercase" id="Services">Mes Services</h2>
+
+<div class="containeur">
     
+    <div class="row d-flex justify-content-center">
+
+        <div class="col-lg-4 col-md-6 d-flex flex-column justift-content-center align-items-center">
+            <img class="imgServices" src="resource/vue.png">
+            <h2 class="text-center">Vue</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos ipsa nisi est impedit odio molest
+            ae, itaque iste laboriosam dolorem magni! Minima necessitatibus enim porro quia ea, soluta aliquam e
+            ius. Suscipit provident quo eum animi aliquid?</p>
+            <a href="#" class="btn btn-secondary mb-5">Voir mes projets &raquo;</a>
+        </div>
+        
+        <div class="col-lg-4 col-md-6 d-flex flex-column justift-content-center align-items-center">
+            <img class="imgServices" src="resource/angular-icon.svg">
+            <h2 class="text-center">Angular</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos ipsa nisi est impedit odio molest
+            ae, itaque iste laboriosam dolorem magni! Minima necessitatibus enim porro quia ea, soluta aliquam e
+            ius. Suscipit provident quo eum animi aliquid?</p>
+            <a href="#" class="btn btn-secondary mb-5">Voir mes projets &raquo;</a>
+        </div>
+
+        <div class="col-lg-4 col-md-6 d-flex flex-column justift-content-center align-items-center">
+            <img class="imgServices" src="resource/React.png">
+            <h2 class="text-center">React</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos ipsa nisi est impedit odio molest
+            ae, itaque iste laboriosam dolorem magni! Minima necessitatibus enim porro quia ea, soluta aliquam e
+            ius. Suscipit provident quo eum animi aliquid?</p>
+            <a href="#" class="btn btn-secondary mb-5">Voir mes projets &raquo;</a>
+        </div>
+
+    </div>
+
+</div>
     
+<!-- section contact -->
+    
+
+<section id="Contact" class="bg-dark text-white mb-0">
+
+    <div class="containeur">
+        <h2 class="titreContact text-center">Rentrons en Contact !</h2>
+        <div class="row">
+            <div class="col-10 mx-auto">
+
+                <form id="contact-form" role="form">
+
+                    <div class="row">
+
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="form_prenom">Prénom *</label>
+                                <input type="text" id="form_prenom" name="prenom" class="form-control" required="required">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="form_nom">Nom *</label>
+                                <input type="text" id="form_nom" name="nom" class="form-control" required="required">
+                            </div>
+                        </div>
+                        
+
+                    </div>
+
+
+                    <div class="row">
+
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="form_email">Email *</label>
+                            <input type="email" id="form_email" name="email" class="form-control" required="required">
+                        </div>
+                    </div>
+
+                    </div>
+
+                    
+                    <div class="row">
+
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <label for="form_message">Message *</label>
+                                <textarea class="form-control" name="message" id="form_message" rows="4" required="required"></textarea>
+                            </div>
+                        </div>
+                       
+                        <div class="col-md-12 mb-5">
+                            <button><input type="sumbit" class="btn btn-success btn-send" value="Envoyez"></button>
+                        </div>
+                    
+                    </div>
+
+                </form>
+
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+
+<footer class="bg-dark text-white">
+    <p class="text-center m-0">
+        @Tout droits réservés - Hackzak  
+    </p>
+</footer>
     
     
     

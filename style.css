@@ -4,11 +4,24 @@ body {
     height: 100vh;
 }
 
+.navbar {
+    border-bottom: 1px solid black;
+}
+
 .imgProfileAcc {
     width: 150px;
 }
 
-.ac {
+#Portfolio {
     display: flex;
     margin: 200px;
+}
+
+#accueil {
+    min-height: 750px;
+}
+
+.imgServices {
+    width: 120px;
+    height: 120px;
 }
