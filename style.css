@@ -8,6 +8,7 @@ body {
     width: 150px;
 }
 
-#Ac {
+.ac {
     display: flex;
+    margin: 200px;
 }
