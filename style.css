@@ -25,3 +25,9 @@ body {
     width: 120px;
     height: 120px;
 }
+
+.Envoyer {
+    position: relative;
+    top: 15px;
+    font-size: 50px;
+}
